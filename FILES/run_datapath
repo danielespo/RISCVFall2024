@@ -1,0 +1,2 @@
+vcs mux2.v mux_wb.v add4.v main_ctrl.v alu_ctrl.v branch_ctrl.v pc_cnt.v imem.v reg_file.v imm_gen.v alu.v dmem.v tb_datapath.v -full64 -debug_access+r
+

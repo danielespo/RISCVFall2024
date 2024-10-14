@@ -1,0 +1,3 @@
+* Method: Compile using VCS (source run_datapath) => Run simulations/plot using DVE tool (simv -gui &)
+(Note) This has to be performed in the directory where verilog files are located
+
