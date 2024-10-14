@@ -1,4 +1,6 @@
 // Data Memory - 32bit width x 256 rows
+// NOTE:
+// Based on lecture notes, we should not need all 256 rows 
 
 `timescale 1ns/1ps
 
