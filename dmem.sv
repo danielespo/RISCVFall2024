@@ -1,6 +1,4 @@
-// Data Memory - 32bit width x 256 rows
-// NOTE:
-// Based on lecture notes, we should not need all 256 rows 
+// Data Memory - 32bit width x 32 rows
 
 `timescale 1ns/1ps
 
@@ -16,7 +14,7 @@ output reg [31:0] rd_data;
 
 reg [31:0] temp_rd;
 reg [31:0] temp_wr;
-reg [31:0] mem[255:0];
+reg [31:0] mem[31:0]; // lowered bits
 integer i;
 
 // Initializing data memory
@@ -24,6 +22,8 @@ initial
 begin
 	mem[0] = 32'h0000_0000;
 	mem[1] = 32'h0000_0000;
+
+	// making all the other mems = 0
 	for (i=2; i<256; i=i+1)
 		mem[i] = 32'h0000_0000;
 end
