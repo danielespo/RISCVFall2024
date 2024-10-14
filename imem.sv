@@ -11,6 +11,7 @@ reg [31:0] mem[255:0];
 integer i;
 
 // Initializing with a list of instructions to execute
+// NOTE: Change this and add the instructions that are missing
 initial
 begin
 	// add x3 x1 x2:	[funct7=0000000][rs2(x2) ][rs1(x1)][funct3=000][rd(x3)  ][opcode=0110011]

@@ -1,4 +1,5 @@
 // Immediate Input Generator
+// Check the datawidth for this
 
 `timescale 1ns/1ps
 

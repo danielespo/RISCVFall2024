@@ -2,6 +2,8 @@
 
 `timescale 1ns/1ps
 
+// This can stay the same
+
 module mux_wb (mem, alu, pc_p4, sel_wb, wb_data);
 
 input [31:0] mem;
