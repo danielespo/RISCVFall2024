@@ -45,21 +45,35 @@ wire [31:0] wb_data;
 
 initial
 begin
-	clk = 1'b0;
-	rst = 1'b1;
-	#5	clk = 1'b1;
-	#5	clk = 1'b0;
-		rst = 1'b0;
-	#5	clk = 1'b1;
-	#5	clk = 1'b0;
-	#5	clk = 1'b1;
-	#5	clk = 1'b0;
-	#5	clk = 1'b1;
-	#5	clk = 1'b0;
-	#5	clk = 1'b1;
-	#5	clk = 1'b0;
-	#5	clk = 1'b1;
-	#5	clk = 1'b0;
+    clk = 1'b0;
+    rst = 1'b1;
+    #5  clk = 1'b1;
+    #5  clk = 1'b0;
+    rst = 1'b0;
+    #5  clk = 1'b1;
+    #5  clk = 1'b0;
+    #5  clk = 1'b1;
+    #5  clk = 1'b0;
+    #5  clk = 1'b1;
+    #5  clk = 1'b0;
+    #5  clk = 1'b1;
+    #5  clk = 1'b0;
+    #5  clk = 1'b1;
+    #5  clk = 1'b0;
+    #5  clk = 1'b1;
+    #5  clk = 1'b0;
+    #5  clk = 1'b1;
+    #5  clk = 1'b0;
+    #5  clk = 1'b1;
+    #5  clk = 1'b0;
+    #5  clk = 1'b1;
+    #5  clk = 1'b0;
+    #5  clk = 1'b1;
+    #5  clk = 1'b0;
+    #5  clk = 1'b1;
+    #5  clk = 1'b0;
+    #5  clk = 1'b1;
+    #5  clk = 1'b0;
 end
 
 // Program Counter & Adder (Add 4)
