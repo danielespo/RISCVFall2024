@@ -75,6 +75,7 @@ reg_file i_reg_file(.clk(clk), .rst(rst), .reg_wr(reg_wr), .rs1_addr(inst[19:15]
 
 // MUX for ALU A input
 mux2 i_mux2_a(.x0(rs1_data), .x1(pc_o), .sel(sel_a), .y(alu_a));
+
 // Immediate Generator & MUX for ALU B input
 imm_gen i_imm_gen(.inst(inst), .imm_o(imm_o));
 mux2 i_mux2_b(.x0(rs2_data), .x1(imm_o), .sel(sel_b), .y(alu_b));

@@ -11,7 +11,7 @@ output br_en;
 reg branch;
 reg jump;
 
-// Jump
+// Jump (basically checks then asserts)
 always @(*)
 begin
 	if (opcode == 7'b110_1111)
