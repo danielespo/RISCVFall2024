@@ -92,3 +92,6 @@ main_ctrl i_main_ctrl(.opcode(inst[6:0]), .funct3(inst[14:12]), .reg_wr(reg_wr),
 branch_ctrl i_branch_ctrl(.opcode(inst[6:0]), .br_type(br_type), .rs1_data(rs1_data), .rs2_data(rs2_data), .br_en(br_en));
 
 endmodule
+
+
+
