@@ -43,6 +43,7 @@ wire [31:0] alu_o;
 wire [31:0] dmem_o;
 wire [31:0] wb_data;
 
+// We changed the number of cycles to match our instructions (13)
 initial
 begin
     clk = 1'b0;
